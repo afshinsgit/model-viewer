@@ -1,0 +1,30 @@
+{
+  "name": "model-viewer",
+  "description": "Model Viewer using Babylon.js with Tridify API",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/systemjs": "0.20.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babylonjs/gui": "^4.1.0",
+    "@babylonjs/loaders": "^4.1.0",
+    "@tridify/babylonjs-utilities": "^0.0.29"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "./scene"
+    ]
+  }
+}
