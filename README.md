@@ -4,10 +4,7 @@ A simple model viewer app using Babylonjs and Tridify service/API.
 
 HOW TO RUN:
 
-## Installing dependencies
-```
-npm install
-```
+Install NodeJS for runing the project.
 
 ## Running the project
 ```
